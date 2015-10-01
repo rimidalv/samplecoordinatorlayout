@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">SampleCoordinatorLayout</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="anews_text">"Anews — платформа для удобного чтения СМИ и блогов. Задача нашего проекта — сделать новости удобными, приятными и интересными. Мы помогаем авторам находить читателей, а пользователям — быстро и без труда получать самую свежую и интересную информацию.
+
+С помощью сайта и мобильного приложения Anews вы можете подписаться на любимые источники и легко следить за ними на одном экране монитора, планшета или смартфона. Anews предоставляет возможность читать находящиеся в открытом доступе бесплатные RSS-ленты, которые обновляются в реальном времени.
+
+К вашим услугам тематические разделы: новости, бизнес, спорт, развлечения и многое другое. Мы предлагаем на выбор сотни источников: крупнейшие российские СМИ, специализированные издания, сайты и блоги. Этот список регулярно пополняется.
+
+Мы будем рады, если Anews поможет вам быть в курсе событий и получать удовольствие от новостей."</string>
+    <string name="title_activity_simple">SimpleActivity</string>
+    <string name="title_activity_simple2_x">Simple2XActivity</string>
+    <string name="title_activity_collapsing">CollapsingActivity</string>
+    <string name="title_activity_simple_enter_always">SimpleEnterAlwaysActivity</string>
+    <string name="title_activity_simple_enter_always_collapsed">SimpleEnterAlwaysCollapsedActivity
+    </string>
+    <string name="title_activity_collapsing_enter_always">CollapsingEnterAlwaysActivity</string>
+    <string name="title_activity_collapsing_enter_always_collapsed">
+        CollapsingEnterAlwaysCollapsedActivity
+    </string>
+    <string name="title_activity_collapsed_enter_always_collapsed_enter_always">
+        CollapsedEnterAlwaysCollapsedEnterAlwaysActivity
+    </string>
+    <string name="title_activity_collapsing_enter_always_exit">CollapsingEnterAlwaysExitActivity
+    </string>
+    <string name="title_activity_collapsing_enter_always_collapsed_exit">
+        CollapsingEnterAlwaysCollapsedExitActivity
+    </string>
+    <string name="title_activity_fab">FABActivity</string>
+</resources>
