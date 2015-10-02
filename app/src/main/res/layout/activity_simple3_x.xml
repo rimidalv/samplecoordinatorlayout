@@ -67,10 +67,10 @@
             android:layout_height="?attr/actionBarSize"
             android:background="#ff8000"
             android:gravity="center"
-            android:text="View scrollFlags exitUntilCollapsed"
+            android:text="View scrollFlags отсутствует"
             android:textColor="#111"
             android:textSize="20sp"
-            app:layout_scrollFlags="scroll|exitUntilCollapsed" />
+             />
 
 
     </android.support.design.widget.AppBarLayout>
