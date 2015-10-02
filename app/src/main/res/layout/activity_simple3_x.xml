@@ -15,7 +15,7 @@
             android:id="@+id/collapsing_toolbar"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            app:contentScrim="#0f0"
+            app:contentScrim="?attr/colorPrimary"
             app:layout_scrollFlags="scroll|enterAlwaysCollapsed">
 
             <FrameLayout
@@ -43,51 +43,39 @@
                 android:id="@+id/toolbar"
                 android:layout_width="match_parent"
                 android:layout_height="?attr/actionBarSize"
-                app:layout_collapseMode="pin" />
+                app:layout_collapseMode="pin"
+                android:title="@string/title_activity_simple2_x"/>
 
 
         </android.support.design.widget.CollapsingToolbarLayout>
 
-        <android.support.v7.widget.Toolbar
+        <TextView
             android:id="@+id/toolbar2"
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
-            android:background="#00f"
+            android:background="#b9730000"
+            android:gravity="center"
+            android:text="View scrollFlags enterAlways"
+            android:textColor="#111"
+            android:textSize="20sp"
             app:layout_scrollFlags="scroll|enterAlways" />
 
 
-        <android.support.v7.widget.Toolbar
+        <TextView
             android:id="@+id/toolbar3"
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
-            android:background="#f0f"
+            android:background="#ff8000"
+            android:gravity="center"
+            android:text="View scrollFlags exitUntilCollapsed"
+            android:textColor="#111"
+            android:textSize="20sp"
             app:layout_scrollFlags="scroll|exitUntilCollapsed" />
 
 
     </android.support.design.widget.AppBarLayout>
 
-    <android.support.v4.widget.NestedScrollView
-        android:id="@+id/nested_scrollview"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:fillViewport="true"
-        app:layout_behavior="@string/appbar_scrolling_view_behavior">
-
-        <LinearLayout
-            android:id="@+id/main_activity_container"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="vertical">
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="2500dp"
-                android:text="@string/anews_text">
-
-            </TextView>
-        </LinearLayout>
-
-    </android.support.v4.widget.NestedScrollView>
+    <include layout="@layout/view_nested_scroll" />
 
 
 </android.support.design.widget.CoordinatorLayout>

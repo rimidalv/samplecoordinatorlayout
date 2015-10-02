@@ -19,27 +19,6 @@
 
     </android.support.design.widget.AppBarLayout>
 
-    <android.support.v4.widget.NestedScrollView
-        android:id="@+id/nested_scrollview"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:fillViewport="true"
-        app:layout_behavior="@string/appbar_scrolling_view_behavior">
-
-        <LinearLayout
-            android:id="@+id/main_activity_container"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical">
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="2500dp"
-                android:text="@string/anews_text">
-
-            </TextView>
-        </LinearLayout>
-
-    </android.support.v4.widget.NestedScrollView>
+    <include layout="@layout/view_nested_scroll" />
 
 </android.support.design.widget.CoordinatorLayout>

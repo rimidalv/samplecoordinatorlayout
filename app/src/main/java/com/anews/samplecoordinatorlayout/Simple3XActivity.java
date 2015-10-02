@@ -16,7 +16,7 @@ public class Simple3XActivity extends AppCompatActivity {
 
         final Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         CollapsingToolbarLayout collapsingToolbarLayout = (CollapsingToolbarLayout) findViewById(R.id.collapsing_toolbar);
-//        setSupportActionBar(toolbar);
+        setSupportActionBar(toolbar);
     }
 
     @Override

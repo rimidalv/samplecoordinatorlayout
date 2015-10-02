@@ -49,29 +49,7 @@
         </android.support.design.widget.CollapsingToolbarLayout>
     </android.support.design.widget.AppBarLayout>
 
-    <android.support.v4.widget.NestedScrollView
-        android:id="@+id/nested_scrollview"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:fillViewport="true"
-        app:layout_behavior="@string/appbar_scrolling_view_behavior">
-
-        <LinearLayout
-            android:id="@+id/main_activity_container"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical">
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="2500dp"
-                android:text="@string/anews_text">
-
-            </TextView>
-        </LinearLayout>
-
-    </android.support.v4.widget.NestedScrollView>
-    <!-- app:layout_behavior="@string/"-->
+    <include layout="@layout/view_nested_scroll" />
 
     <android.support.design.widget.FloatingActionButton
         android:id="@+id/fab"
@@ -79,10 +57,11 @@
         android:layout_height="wrap_content"
         android:layout_gravity="end|bottom"
         android:layout_margin="16dp"
-        app:backgroundTint="#f00"
+        app:backgroundTint="?attr/colorPrimary"
         app:borderWidth="0dp"
         app:layout_behavior="com.anews.samplecoordinatorlayout.scrollingviewbehavior.ScrollAwareFABBehavior"
         app:layout_scrollFlags="scroll|enterAlways"
-        app:rippleColor="#900" />
+        app:rippleColor="#900"
+        android:src="@mipmap/ic_add"/>
 
 </android.support.design.widget.CoordinatorLayout>

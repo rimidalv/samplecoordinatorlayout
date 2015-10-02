@@ -10,23 +10,23 @@
 К вашим услугам тематические разделы: новости, бизнес, спорт, развлечения и многое другое. Мы предлагаем на выбор сотни источников: крупнейшие российские СМИ, специализированные издания, сайты и блоги. Этот список регулярно пополняется.
 
 Мы будем рады, если Anews поможет вам быть в курсе событий и получать удовольствие от новостей."</string>
-    <string name="title_activity_simple">SimpleActivity</string>
-    <string name="title_activity_simple2_x">Simple2XActivity</string>
-    <string name="title_activity_collapsing">CollapsingActivity</string>
-    <string name="title_activity_simple_enter_always">SimpleEnterAlwaysActivity</string>
-    <string name="title_activity_simple_enter_always_collapsed">SimpleEnterAlwaysCollapsedActivity
+    <string name="title_activity_simple">Простой Toolbar</string>
+    <string name="title_activity_simple2_x">Несколько Views в одном AppBarLayout</string>
+    <string name="title_activity_collapsing">scrollFlags ExitUntil</string>
+    <string name="title_activity_simple_enter_always">scrollFlags EnterAlways</string>
+    <string name="title_activity_simple_enter_always_collapsed">scrollFlags EnterAlwaysCollapsed
     </string>
-    <string name="title_activity_collapsing_enter_always">CollapsingEnterAlwaysActivity</string>
+    <string name="title_activity_collapsing_enter_always">CollapsingToolbarLayout scrollFlags EnterAlways</string>
     <string name="title_activity_collapsing_enter_always_collapsed">
-        CollapsingEnterAlwaysCollapsedActivity
+        CollapsingToolbarLayout scrollFlags EnterAlwaysCollapsed
     </string>
     <string name="title_activity_collapsed_enter_always_collapsed_enter_always">
-        CollapsedEnterAlwaysCollapsedEnterAlwaysActivity
+        CollapsingToolbarLayout scrollFlags EnterAlwaysCollapsed и EnterAlwaysActivity
     </string>
-    <string name="title_activity_collapsing_enter_always_exit">CollapsingEnterAlwaysExitActivity
+    <string name="title_activity_collapsing_enter_always_exit">CollapsingToolbarLayout scrollFlags EnterAlways и Exit
     </string>
     <string name="title_activity_collapsing_enter_always_collapsed_exit">
-        CollapsingEnterAlwaysCollapsedExitActivity
+        CollapsingToolbarLayout scrollFlags EnterAlwaysCollapsed и Exit
     </string>
-    <string name="title_activity_fab">FABActivity</string>
+    <string name="title_activity_fab">FloatingActionButton</string>
 </resources>
