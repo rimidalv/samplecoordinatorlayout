@@ -17,7 +17,7 @@
             android:layout_height="match_parent"
 
             app:contentScrim="?attr/colorPrimary"
-            app:layout_scrollFlags="scroll|enterAlways|exitUntilCollapsed">
+            app:layout_scrollFlags="scroll|enterAlways|enterAlwaysCollapsed|exitUntilCollapsed">
             <FrameLayout
                 android:id="@+id/fragment_news_iv_image_container"
                 android:layout_width="match_parent"

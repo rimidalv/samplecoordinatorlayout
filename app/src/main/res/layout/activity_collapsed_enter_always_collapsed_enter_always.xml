@@ -29,7 +29,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:minHeight="200dp"
-                    android:src="@drawable/awatar"
+                    android:src="@drawable/common_signin_btn_text_normal_dark"
                     android:scaleType="centerCrop" />
 
                 <ImageView
