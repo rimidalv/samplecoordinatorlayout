@@ -60,6 +60,10 @@
             android:name=".FABActivity"
             android:label="@string/title_activity_fab" >
         </activity>
+        <activity
+            android:name=".TabFABActivity"
+            android:label="@string/title_activity_tab_fab" >
+        </activity>
     </application>
 
 </manifest>

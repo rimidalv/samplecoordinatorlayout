@@ -108,11 +108,12 @@
             android:text="@string/title_activity_fab"
             android:textAllCaps="false" />
 
-        <!--<Button-->
-        <!--android:layout_width="match_parent"-->
-        <!--android:layout_height="wrap_content"-->
-        <!--android:id="@+id/_12"-->
-        <!--android:onClick="onClick"-->
-        <!--android:text="@string/"/>-->
+        <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/_12"
+        android:onClick="onClick"
+        android:text="@string/title_activity_tab_fab"
+            android:textAllCaps="false" />
     </LinearLayout>
 </ScrollView>

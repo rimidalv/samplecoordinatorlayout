@@ -84,10 +84,10 @@ public class MainActivity extends AppCompatActivity {
                 intent = new Intent(this, FABActivity.class);
                 break;
             }
-//            case R.id._12:{
-//
-//                break;
-//            }
+            case R.id._12:{
+                intent = new Intent(this, TabFABActivity.class);
+                break;
+            }
         }
         startActivity(intent);
     }
