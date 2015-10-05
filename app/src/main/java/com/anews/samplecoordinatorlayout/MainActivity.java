@@ -88,6 +88,10 @@ public class MainActivity extends AppCompatActivity {
                 intent = new Intent(this, TabFABActivity.class);
                 break;
             }
+            case R.id._13:{
+                intent = new Intent(this, SnackbarActivity.class);
+                break;
+            }
         }
         startActivity(intent);
     }

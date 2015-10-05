@@ -3,6 +3,8 @@ package com.anews.samplecoordinatorlayout;
 import android.os.Bundle;
 import android.app.Activity;
 import android.support.design.widget.CollapsingToolbarLayout;
+import android.support.design.widget.FloatingActionButton;
+import android.support.design.widget.Snackbar;
 import android.support.design.widget.TabLayout;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
@@ -29,17 +31,18 @@ public class TabFABActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_tab_fab);
         final Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
-        CollapsingToolbarLayout collapsingToolbarLayout = (CollapsingToolbarLayout) findViewById(R.id.collapsing_toolbar);
+        final CollapsingToolbarLayout collapsingToolbarLayout = (CollapsingToolbarLayout) findViewById(R.id.collapsing_toolbar);
+        tabLayout = (TabLayout) findViewById(R.id.tabLayout);
+
+
         setSupportActionBar(toolbar);
 
-//        setupToolbar();
         setupTablayout();
-//        setupFab();
     }
 
     private void setupTablayout(){
 
-        tabLayout = (TabLayout) findViewById(R.id.tabLayout);
+
         tabLayout.setTabGravity(TabLayout.GRAVITY_FILL);
 
         ViewPager viewPager = (ViewPager) findViewById(R.id.fragment_reader_pager_vp);

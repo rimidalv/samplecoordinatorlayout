@@ -29,5 +29,6 @@
         CollapsingToolbarLayout scrollFlags EnterAlwaysCollapsed и Exit
     </string>
     <string name="title_activity_fab">FloatingActionButton</string>
-    <string name="title_activity_tab_fab">TabFABActivity</string>
+    <string name="title_activity_tab_fab">Tabs</string>
+    <string name="title_activity_snackbar">Snackbar и FAB</string>
 </resources>
